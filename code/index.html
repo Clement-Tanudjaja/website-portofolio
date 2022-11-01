@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Document</title>
+</head>
+<body class="no-scroll">
+
+
+    <!-- <div class="animate-bounce fixed w-[10vw] h-[10vw] top-1/2 left-5"> -->
+        <!-- <div class="text-white text-center w-full">See More</div> -->
+        <a href="#navbar" id="go-back" class="go-back p-1 animate-bounce fixed w-[6vw] h-[6vw] top-1/2 left-5 border-white border rounded-full">
+            <img  src="../assets/down-arrow.png" class="rotate-180 z-50" alt="">
+        </a>
+
+    <!-- </div> -->
+
+    <!-- navbar -->
+    <section id="navbar">
+      
+        <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded-b-lg dark:bg-gray-900">
+   <div class="container flex flex-wrap justify-between items-center mx-auto">
+     <a href="https://flowbite.com/" class="flex items-center">
+         <span class="self-center text-xl  font-['Lobster'] whitespace-nowrap text-gray-700 dark:text-white">Clement Wim Tanudjaja</span>
+     </a>
+     <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+       <span class="sr-only">Open main menu</span>
+       <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+     </button>
+     <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+       <ul class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+         <li>
+           <a href="#hero" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Home</a>
+         </li>
+         <li>
+           <a href="#about" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+         </li>
+         <li>
+           <a href="#project" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
+         </li>
+         <!-- <li>
+           <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+         </li> -->
+         <li>
+           <a href="#contact" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact Me</a>
+         </li>
+       </ul>
+     </div>
+   </div>
+        </nav>
+ 
+    </section>
+
+
+     <section id="hero" class="hero flex justify-center items-center min-h-[100vh] max-h-[100vh]">
+
+        <!-- main card -->
+         <div class="card relative w-80 h-80 bg-gray-100 dark:bg-gray-900 -mt-28">
+            <div class="imgBox relative w-full h-full z-[1]">
+                <p class="hover-text text-white z-[4] absolute left-0 w-80 text-center text-2xl top-5 opacity-75 font-['Lobster'] tracking-widest" >Hover me</p>
+                 <img src="../assets/profile.JPG" alt="" class="absolute top-0 left-0 w-full h-full"> 
+                </div>
+
+            <div class="details absolute top-0 left-0 w-full h-full p-[20px] flex justify-center items-center">
+                <div class="content flex justify-center items-center flex-col">
+                    <h2 class="text-center font-bold leading-4 text-lg dark:text-white">Clement Wim Tanudjaja<br><br>
+                        <span class="">Web Developer | UI / UX Designer </span>
+
+                    </h2>
+                    <div class="cv flex relative mt-4">
+                        <a class="cva text-white font-semibold tracking-wide  bg-blue-700 rounded-md p-4" href="https://binusianorg-my.sharepoint.com/personal/clement_tanudjaja_binus_ac_id/_layouts/15/guestaccess.aspx?docid=0da7466633f374a558a112ae751692c5d&authkey=ARqO2nC7oWdebeVJ3rjIS90&e=Tlo7Jl" target="_blank">
+                            Get My CV
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+         </div>
+         
+         <div class="w-full animate-bounce absolute bottom-5 flex flex-col justify-start items-center gap-2">
+             <div class="text-white text-center w-full">See More</div>
+             <a href="#about" class="w-14 h-14 p-2 border rounded-full">
+                 <img  src="../assets/down-arrow.png" alt="">
+             </a>
+
+
+         </div>
+
+         
+     </section>
+
+     <section id="about" class="relative w-full min-h-[75vh] max-h-[100vh] flex flex-col justify-center items-center mb-11">
+        <div class="absolute top-0">
+
+        
+        <div data-aos="fade down" data-aos-duration="1000" data-aos-delay = "100" data-aos-once="true"
+        class=" text-white font-['Lobster'] text-7xl my-8 text-center mx-auto">About Me</div>
+        
+        <div data-aos="fade-left" data-aos-duration="500" data-aos-once="true"
+        class="text-justify text-white w-[55vw] mx-auto">
+            Hello ! My name is <span class="font-bold text-[#83e0fc]">Clement Wim Tanudjaja</span>, I'm at my 5th Semester at Bina Nusantara Univerity, majoring in computer science with a current GPA of <span class="font-bold text-[#83e0fc]">3.85/4.00</span>. During my 2 and more years in Bina Nusantara University, I have found myself being passionate about <span class="font-bold text-[#83e0fc]">designing and making exciting web pages </span>.
+            I have previously joined organizations where I receive training about various stuffs and given the responsibility to develop some of their annual event's landing pages. After my experiences in those organizations, I have gained and developed my soft skills such as
+            <span class="font-bold text-[#83e0fc]" >teamwork, my ability to learn about new stuffs, adaptability, time management and many more.            </span>
+        </div>
+        
+        <div data-aos="fade-right" data-aos-duration="500" data-aos-once="true" 
+        class="about-sub-header text-3xl mt-3 mx-auto text-center">Programming Skills I've learned</div>
+        
+        <div data-aos="fade-right" data-aos-duration="500" data-aos-once="true" 
+        class="mx-auto max-w-[55vw] text-center text-white font-semibold ">
+            <span class="bg-gradient-to-r from-blue-800 to-rose-500">
+                HTML5, CSS, JavaScript, Bootstrap, Tailwind, PHP, Laravel Framework, Java & Java OOP, C, MySQL, Python.
+
+            </span>
+        </div>
+
+        <div data-aos="fade-left" data-aos-duration="500" data-aos-once="true" 
+        class="about-sub-header text-3xl mt-3 mx-auto text-center">Currently learning</div>
+        
+        <div data-aos="fade-right" data-aos-duration="500" data-aos-once="true"
+         class="mx-auto max-w-[55vw] text-center text-white font-semibold ">
+            <span class="bg-gradient-to-r from-blue-800 to-rose-500 ">
+                ReactJS Native Framework
+
+            </span>
+        </div>
+
+    </div>
+
+     </section>
+
+     <section id="project" class="w-full min-h-[100vh] relative">
+      <h1 class="blink text-white font-['Lobster'] text-7xl my-8 text-center">Project</h1>
+
+      <div class="project-container flex-wrap w-3/4 gap-4 flex flex-row justify-center mx-auto px-5 z-0">
+             
+         <!-- 1 -->
+         <div data-aos="fade-up" data-aos-mirror="true" data-aos-anchor-placement="top-bottom"     data-aos-offset="0"     data-aos-duration="1200"
+                  class="div-sizing max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <a href="https://hishot.himtibinus.or.id" target="_blank">
+               <img class="zoom rounded-t-lg w-full h-[180px] object-cover" src="/assets/hishot.png" alt="">
+            </a>
+            <div class="p-5">
+                <a class="cursor-default">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">HISHOT Connect 2022</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Participated in developing the landing page of an event using <span class="text-white font-bold bg-gradient-to-r from-purple-500 to-pink-500 rounded-md p-[1px] ">HTML5, CSS3, JavaScript, and Bootstrap</span></p>
+                <a href="https://hishot.himtibinus.or.id" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Read more
+                    <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+         </div>
+
+         <!-- 2 -->
+         <div data-aos="fade-up" data-aos-mirror="true" data-aos-anchor-placement="top-bottom"     data-aos-offset="0"     data-aos-duration="1200"
+         class="div-sizing max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <a href="https://techfest.himtibinus.or.id" target="_blank">
+               <img class="rounded-t-lg w-full h-[180px] object-cover" src="/assets/techfest.png" alt="">
+            </a>
+            <div class="p-5">
+                <a class="cursor-default">
+                    <h5 href="https://techfest.himtibinus.or.id" target="_blank" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">TechFest 2022</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Participated in developing a new annual event's landing page using <span class="text-white font-bold bg-gradient-to-r from-purple-500 to-pink-500 rounded-md p-[1px]">HTML5, CSS3, JavaScript, Tailwind, and ReactJS</span></p>
+                <a href="https://techfest.himtibinus.or.id" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Read more
+                    <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+         </div>
+
+         <!-- 3 -->
+         <div data-aos="fade-up" data-aos-mirror="true" data-aos-anchor-placement="top-bottom"     data-aos-offset="0"     data-aos-duration="1200"
+         class="div-sizing max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <a href="https://clement-tanudjaja.github.io/Laforant/Code/index.html" target="_blank">
+               <img class="rounded-t-lg w-full h-[180px] object-cover" src="/assets/laforant.png" alt="">
+            </a>
+            <div class="p-5">
+                <a class="cursor-default">
+                    <h5 href="https://clement-tanudjaja.github.io/Laforant/Code/index.html" target="_blank" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Laforant</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A responsive web page using simple  <span class="text-white font-bold bg-gradient-to-r from-purple-500 to-pink-500 rounded-md p-[1px]">HTML5, CSS3, and JavaScript</span></p>
+                <a href="https://clement-tanudjaja.github.io/Laforant/Code/index.html" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Read more
+                    <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+         </div>
+
+         <!-- 4 -->
+         <div data-aos="fade-up" data-aos-mirror="true" data-aos-anchor-placement="top-bottom"     data-aos-offset="0"     data-aos-duration="1200"
+         class="div-sizing max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <a href="https://www.figma.com/proto/JIyJyOc7hZ4eTXwsyaPnii/Protoype-SE?node-id=70%3A49&starting-point-node-id=33%3A5" target="_blank">
+               <img class="rounded-t-lg w-full h-[180px] object-cover" src="/assets/recipez.png" alt="">
+            </a>
+            <div class="p-5">
+                <a class="cursor-default">
+                    <h5 href="https://www.figma.com/proto/JIyJyOc7hZ4eTXwsyaPnii/Protoype-SE?node-id=70%3A49&starting-point-node-id=33%3A5" target="_blank" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">RecipEZ</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Mobile design mockup for an application that gives recipes based on ingredients.</p>
+                <a href="https://www.figma.com/proto/JIyJyOc7hZ4eTXwsyaPnii/Protoype-SE?node-id=70%3A49&starting-point-node-id=33%3A5" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Read more
+                    <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+         </div>
+
+         
+         <!-- 5 -->
+         <div data-aos="fade-up" data-aos-mirror="true" data-aos-anchor-placement="top-bottom"     data-aos-offset="0"     data-aos-duration="1200"
+         class="div-sizing max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <a href="https://www.figma.com/file/gmQQgUm7XmusoyesadUJDh/Untitled?node-id=0%3A1" target="_blank">
+             <img class="rounded-t-lg w-full h-[180px] object-cover object-left-top" src="/assets/medstore.png" alt="">
+          </a>
+          <div class="p-5">
+              <a class="cursor-default">
+                  <h5 href="https://www.figma.com/file/gmQQgUm7XmusoyesadUJDh/Untitled?node-id=0%3A1" target="_blank" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Medstore</h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Mobile design mockup for poster outside the store.</p>
+              <a href="https://www.figma.com/file/gmQQgUm7XmusoyesadUJDh/Untitled?node-id=0%3A1" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                  Read more
+                  <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+              </a>
+          </div>
+       </div>
+         <!-- 6 -->
+         <div data-aos="fade-up" data-aos-mirror="true" data-aos-anchor-placement="top-bottom"     data-aos-offset="0"     data-aos-duration="1200"
+         class="div-sizing max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <a href="https://www.figma.com/file/2u4zU225ofpV3PUGOLzoGr/FinalProject--Clement?node-id=4%3A168" target="_blank">
+             <img class="rounded-t-lg w-full h-[180px] object-cover object-left-top" src="/assets/nation.png" alt="">
+          </a>
+          <div class="p-5">
+              <a class="cursor-default">
+                  <h5 href="https://www.figma.com/file/2u4zU225ofpV3PUGOLzoGr/FinalProject--Clement?node-id=4%3A168" target="_blank" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Nation Store</h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A full mobile mockup of an online furniture shop.</p>
+              <a href="https://www.figma.com/file/2u4zU225ofpV3PUGOLzoGr/FinalProject--Clement?node-id=4%3A168" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                  Read more
+                  <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+              </a>
+          </div>
+       </div>
+         <!-- 7 -->
+         <div data-aos="fade-up" data-aos-mirror="true" data-aos-anchor-placement="top-bottom"     data-aos-offset="0"     data-aos-duration="1200"
+         class="div-sizing max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <a href="https://www.figma.com/proto/sPOwMHnHNxFUKx5wIeXPya/Untitled?node-id=22%3A5&scaling=scale-down&page-id=0%3A1" target="_blank">
+             <img class="rounded-t-lg w-full h-[180px] object-cover object-top" src="/assets/checkup.png" alt="">
+          </a>
+          <div class="p-5">
+              <a class="cursor-default">
+                  <h5 href="https://www.figma.com/proto/sPOwMHnHNxFUKx5wIeXPya/Untitled?node-id=22%3A5&scaling=scale-down&page-id=0%3A1" target="_blank" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">checkUP</h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A quick prototype mockup for mobile application that enlist patients to hospital.</p>
+              <a href="https://www.figma.com/proto/sPOwMHnHNxFUKx5wIeXPya/Untitled?node-id=22%3A5&scaling=scale-down&page-id=0%3A1" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                  Read more
+                  <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+              </a>
+          </div>
+       </div>
+         <!-- 8 -->
+        <div data-aos="fade-up" data-aos-mirror="true" data-aos-anchor-placement="top-bottom"     data-aos-offset="0"     data-aos-duration="1200"
+        class="div-sizing max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <a href="https://www.figma.com/proto/JGZxZ1ovxSNJuoHGbYpjx7/Untitled?node-id=5%3A307&scaling=scale-down&page-id=0%3A1" target="_blank">
+             <img class="rounded-t-lg w-full h-[180px] object-cover object-left-top" src="/assets/wireframe.png" alt="">
+          </a>
+          <div class="p-5">
+              <a class="cursor-default">
+                  <h5 href="https://www.figma.com/proto/JGZxZ1ovxSNJuoHGbYpjx7/Untitled?node-id=5%3A307&scaling=scale-down&page-id=0%3A1" target="_blank" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Prototype Wireframe</h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Mobile prototype in low fidelity for a healthcare application.</p>
+              <a href="https://www.figma.com/proto/JGZxZ1ovxSNJuoHGbYpjx7/Untitled?node-id=5%3A307&scaling=scale-down&page-id=0%3A1" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                  Read more
+                  <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+              </a>
+          </div>
+       </div>
+       <!-- end project -->
+
+      </div>
+      <!-- end projects container -->
+
+ 
+
+
+     </section>
+
+     <section id="contact" class="flex flex-col justify-center items-center">
+        <div class="blink text-white font-['Lobster'] text-7xl my-8 text-center">Contact Me</div>
+
+        <!-- <form action=""></form> -->
+        <div data-aos="flip-up" data-aos-duration="500" data-aos-mirror="true"
+        class="rounded-md flex flex-col justify-evenly items-start contact-wrapper w-min min-h-[40vh] bg-white dark:bg-gray-900 p-3">
+
+           
+<!-- 1 -->
+            <a class="contact-items flex items-center" href="www.google.com" target="_blank">
+                <div class="w-10 h-10 bg-blue-700 rounded-md flex justify-center items-center mr-7">
+                    <img src="../assets/contact/github.png" alt="email" class="w-5 h-5 block mx-auto">
+
+                </div>
+                <div class="box-text text-gray-700 dark:text-white">@clement-tanudjaja</div>
+            </a>
+<!-- 2 -->
+            <a class="contact-items flex items-center" href="www.google.com" target="_blank">
+                <div class="w-10 h-10 bg-blue-700 rounded-md flex justify-center items-center mr-7">
+                    <img src="../assets/contact/linkedin.png" alt="email" class="w-5 h-5 block mx-auto">
+
+                </div>
+                <div class="box-text text-gray-700 dark:text-white">Clement Tanudjaja</div>
+            </a>
+<!-- 3 -->
+            <a class="contact-items flex items-center" href="www.google.com" target="_blank">
+                <div class="w-10 h-10 bg-blue-700 rounded-md flex justify-center items-center mr-7">
+                    <img src="../assets/contact/email.png" alt="email" class="w-5 h-5 block mx-auto">
+
+                </div>
+                <div class="box-text text-gray-700 dark:text-white">clement.tanudjaja16@gmail.com</div>
+            </a>
+<!-- 4 -->
+            <a class="contact-items flex items-center" href="www.google.com" target="_blank">
+                <div class="w-10 h-10 bg-blue-700 rounded-md flex justify-center items-center mr-7">
+                    <img src="../assets/contact/whatsapp.png" alt="email" class="w-5 h-5 block mx-auto">
+
+                </div>
+                <div class="box-text text-gray-700 dark:text-white">+62 857-2432-6332</div>
+            </a>
+
+            
+
+            
+
+        </div>
+
+     </section>
+
+     <section id="footer">
+        <div 
+        class="w-full bg-white dark:bg-gray-900 h-12 mt-7 rounded-t-lg">
+            <p class="text-gray-700 dark:text-white text-center pt-2">
+                ~ Made by Clement Wim Tanudjaja 😃 ~
+            </p>
+        </div>
+     </section>
+
+     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+     <script src="../path/to/flowbite/dist/flowbite.js"></script>
+     <script src="/code/index.js"></script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+</body>
+</html>
